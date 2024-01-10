@@ -8,7 +8,6 @@
 - [Acceso a la Aplicación](#acceso-a-la-aplicación)
 - [Instrucciones de Uso](#instrucciones-de-uso)
 - [Autores](#autores)
-- [Información Adicional](#información-adicional)
 
 ## Introducción
 
@@ -58,6 +57,3 @@ Descubre la plataforma de Registro de Acciones [aquí](#).
 | [<img src="https://i.postimg.cc/L8mr21JS/Ana.jpg)" width=115><br><sub>Ana Campoverde</sub>](https://github.com/AnaCampoverde) |  [<img src="https://i.postimg.cc/Xqn2fYsw/Joel.jpg" width=115><br><sub>Joel Guingla</sub>](https://github.com/Luis7G) | [<img src="https://i.postimg.cc/fL5wjJws/Sebas.jpg" width=115><br><sub>Sebastian Sánchez</sub>](https://github.com/greyox97) 
 | :---: | :---: | :---: |
 
-## Información Adicional
-
-Este proyecto es el resultado del esfuerzo conjunto de un grupo apasionado de inversionistas. Si tienes alguna pregunta, sugerencia o simplemente quieres discutir sobre inversiones, ¡no dudes en contactarnos! Estamos aquí para ayudarte en tu viaje financiero. ¡Buena suerte en tus inversiones!
