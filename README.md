@@ -11,7 +11,7 @@
 
 ## Introducción
 
-Esta plataforma está diseñada para ser tu compañero confiable en el emocionante mundo de las inversiones. Aquí, puedes registrar cada detalle de tus transacciones de acciones, desde el nombre y símbolo de la acción hasta la fecha de compra, el precio por acción, la cantidad adquirida y el costo total de la compra.
+Esta plataforma está diseñada para ser tu compañero confiable en el emocionante mundo de las inversiones. Aquí, puedes registrar cada detalle de tus transacciones de acciones, desde el nombre de la acción hasta la fecha de compra, el precio por acción, la cantidad adquirida y el costo total de la compra.
 
 ## Campos del Registro
 
