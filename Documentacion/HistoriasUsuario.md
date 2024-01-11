@@ -19,8 +19,5 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
 
 |*Criterio de aceptación:* | **Dado** que el usuario tiene acceso al sistema, **cuando** complete todos los campos requeridos para registrar una nueva acción, la acción deberá ser almacenada de manera efectiva en la base de datos.|
 
-|*Requisitos funcionales asociados:*|
-- El sistema deberá proporcionar un formulario de registro con campos para el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra.
-- Se requiere un mecanismo de cálculo automático del costo total de la compra.
-- El historial de acciones deberá ser accesible para que el usuario pueda verificar la información registrada.|
+|*Requisitos funcionales asociados:*| El sistema deberá proporcionar un formulario de registro con campos para el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra. Se requiere un mecanismo de cálculo automático del costo total de la compra. El historial de acciones deberá ser accesible para que el usuario pueda verificar la información registrada.|
 |||
