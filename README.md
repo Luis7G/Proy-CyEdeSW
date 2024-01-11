@@ -54,6 +54,6 @@ Descubre la plataforma de Registro de Acciones [aquí](#).
 
 ## Autores
 
-| [<img src="https://i.postimg.cc/L8mr21JS/Ana.jpg)" width=115><br><sub>Ana Campoverde</sub>](https://github.com/AnaCampoverde) |  [<img src="https://i.postimg.cc/Xqn2fYsw/Joel.jpg" width=115><br><sub>Joel Guingla</sub>](https://github.com/Luis7G) | [<img src="https://i.postimg.cc/fL5wjJws/Sebas.jpg" width=115><br><sub>Sebastian Sánchez</sub>](https://github.com/greyox97) 
+| [<img src="https://i.postimg.cc/L8mr21JS/Ana.jpg)" width=300><br><sub>Ana Campoverde</sub>](https://github.com/AnaCampoverde) |  [<img src="https://i.postimg.cc/Xqn2fYsw/Joel.jpg" width=300><br><sub>Joel Guingla</sub>](https://github.com/Luis7G) | [<img src="https://i.postimg.cc/fL5wjJws/Sebas.jpg" width=300><br><sub>Sebastian Sánchez</sub>](https://github.com/greyox97) 
 | :---: | :---: | :---: |
 
