@@ -12,7 +12,84 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
 | **N°:** 1 | **Título:** Registro de nuevas acciones |
 | ---------- | ------------------------------------- |
 | **Prioridad** | Alta |
-| **Historia de usuario:** | Como usuario del sistema, deseo poder registrar nuevas acciones de manera eficiente, proporcionando información clave como el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra. Esto permitirá mantener un historial detallado y actualizado de mis inversiones. |
-| **Criterio de aceptación:** | Dado que el usuario tiene acceso al sistema, cuando complete todos los campos requeridos para registrar una nueva acción, la acción deberá ser almacenada de manera efectiva en la base de datos. |
-| **Requisitos funcionales asociados:** | - El sistema deberá proporcionar un formulario de registro con campos para el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra. - Se requiere un mecanismo de cálculo automático del costo total de la compra. - El historial de acciones deberá ser accesible para que el usuario pueda verificar la información registrada.
+| **Historia de usuario:** | **Como** usuario del sistema, **deseo** poder registrar nuevas acciones de manera eficiente, proporcionando información clave como el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra. Esto permitirá mantener un historial detallado y actualizado de mis inversiones. |
+| **Criterio de aceptación:** | **Dado** que el usuario tiene acceso al sistema, **cuando** complete todos los campos requeridos para registrar una nueva acción, la acción deberá ser almacenada de manera efectiva en la base de datos. |
+| **Requisitos funcionales asociados:** |
+- El sistema deberá proporcionar un formulario de registro con campos para el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra.
+- Se requiere un mecanismo de cálculo automático del costo total de la compra.
+- El historial de acciones deberá ser accesible para que el usuario pueda verificar la información registrada.
+
 ---
+
+### Historia de Usuario Nro: 2
+
+
+| **N°:** 2 | **Título:** Visualización detallada del historial de acciones |
+| ---------- | ---------------------------------------------------------- |
+| **Prioridad** | Media |
+| **Historia de usuario:** | **Como** usuario del sistema, **quiero** poder visualizar un historial detallado de todas las acciones registradas. Esto me permitirá realizar un seguimiento efectivo de mis transacciones pasadas y tomar decisiones informadas sobre nuevas inversiones. |
+| **Criterio de aceptación:** | **Dado** que el usuario tiene acceso al sistema, **cuando** acceda a la función de visualización de historial, deberá ver una lista completa y detallada de todas las acciones registradas. |
+| **Requisitos funcionales asociados:** |
+- El sistema debe proporcionar una interfaz clara y accesible para visualizar el historial de acciones.
+- La información en el historial debe presentarse de manera ordenada y fácil de entender.
+
+---
+
+### Historia de Usuario Nro: 3
+
+
+| **N°:** 3 | **Título:** Modificación de una acción registrada |
+| ---------- | -------------------------------------------- |
+| **Prioridad** | Media |
+| **Historia de usuario:** | **Como** usuario del sistema, **quiero** tener la capacidad de modificar los detalles de una acción registrada. Esto me permitirá corregir errores en la información ingresada o actualizar datos en caso de cambios en la posición de la acción. |
+| **Criterio de aceptación:** | **Dado** que el usuario tiene acceso al sistema, **cuando** acceda a la función de modificación de acciones y seleccione una acción específica, deberá poder editar los detalles de esa acción. Después de realizar cambios, la acción modificada deberá reflejar la información actualizada en el historial. |
+| **Requisitos funcionales asociados:** |
+- El sistema debe proporcionar una interfaz intuitiva para editar los detalles de una acción registrada.
+- Los cambios realizados en la información de la acción deben reflejarse inmediatamente en el historial.
+
+---
+
+### Historia de Usuario Nro: 4
+
+
+| **N°:** 4 | **Título:** Eliminación de una Acción Registrada |
+| ---------- | -------------------------------------------- |
+| **Prioridad** | Baja |
+| **Historia de usuario:** | **Como** usuario del sistema, **deseo** poder eliminar una acción registrada que ya no es relevante. Esto me permitirá mantener mi historial actualizado y libre de información obsoleta. |
+| **Criterio de aceptación:** | **Dado** que el usuario tiene acceso al sistema, **cuando** acceda a la función de eliminación de acciones y seleccione una acción específica, deberá poder confirmar la eliminación. Después de la eliminación, la acción ya no deberá aparecer en el historial de acciones. |
+| **Requisitos no funcionales asociados:** |
+- El sistema debe proporcionar una opción clara para eliminar acciones.
+- Se debe solicitar una confirmación antes de completar la eliminación.
+
+---
+
+### Historia de Usuario No Funcional Nro: 5
+
+
+| **N°:** 5 | **Título:** Seguridad de Datos |
+| ---------- | ---------------------------- |
+| **Prioridad** | Media |
+| **Historia de usuario:** | **Como** usuario preocupado por la seguridad de mis datos financieros, **deseo** que el sistema implemente medidas de seguridad robustas para proteger la información sensible relacionada con mis inversiones. |
+| **Criterio de aceptación:** | Los datos almacenados en el sistema deben estar cifrados para proteger la confidencialidad. El sistema debe implementar autenticación segura para garantizar que solo usuarios autorizados accedan a la información financiera.
+
+---
+
+### Historia de Usuario No Funcional Nro: 6
+
+
+| **N°:** 6 | **Título:** Rendimiento y Eficiencia |
+| ---------- | ---------------------------------- |
+| **Prioridad** | Alta |
+| **Historia de usuario:** | **Como** usuario que valora la eficiencia, **deseo** que el sistema sea rápido y eficiente al cargar y mostrar el historial de acciones, incluso cuando haya un gran volumen de datos. |
+| **Criterio de aceptación:** | El tiempo de carga del historial de acciones no debe exceder un límite aceptable, incluso con una cantidad significativa de registros. Las operaciones como registro, modificación y eliminación de acciones deben completarse de manera rápida y sin demoras notables.
+
+---
+
+### Historia de Usuario No Funcional Nro: 7
+
+
+| **N°:** 7 | **Título:** Interfaz de Usuario Intuitiva |
+| ---------- | -------------------------------------- |
+| **Prioridad** | Alta |
+| **Historia de usuario:** | **Como** usuario, **deseo** que la interfaz de usuario sea intuitiva y fácil de usar, para poder navegar y realizar acciones en el sistema de Registro de Acciones sin dificultades. |
+| **Criterio de aceptación:** | La interfaz de usuario debe tener un diseño limpio y organizado. Las funciones clave, como registro, modificación, eliminación y búsqueda, deben ser fácilmente accesibles y comprensibles para cualquier usuario.
