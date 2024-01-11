@@ -9,6 +9,14 @@
 
 En el presente informe, se exponen las variadas historias de usuario asociadas con el desarrollo del proyecto de un sistema de registro de acciones. Estas historias exploran los elementos fundamentales del proyecto desde la perspectiva del usuario, considerando tanto los criterios de aceptación como los requisitos esenciales para llevar a cabo las historias.
 
+
+|*N°:* 1| *Título:* Visualización de nombres de posturas en tres idiomas|
+|-|-| 
+|*Prioridad*| Alta |
+|*Historia de usuario:**|**Como* usuario del sistema, *quiero* ver los nombres de las posturas en tres idiomas diferentes (sánscrito, español e inglés), *para* aprender su significado.|
+|*Criterio de aceptación:**|**Dado* que el usuario ingresa una postura, *cuando* el software muestra la información de la postura, *entonces* el software permitirá la visualización del nombre de la postura en tres idiomas diferentes, con una fuente grande y llamativa, que permita su fácil lectura.|
+|||
+
 | Nro: 1 | Solicitud: Registro de nuevas acciones | Prioridad: Alta |
 |--------|----------------------------------------|------------------|
 | **Historia de Usuario:** Como usuario del sistema, deseo poder registrar nuevas acciones de manera eficiente, proporcionando información clave como el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra. Esto permitirá mantener un historial detallado y actualizado de mis inversiones. |
