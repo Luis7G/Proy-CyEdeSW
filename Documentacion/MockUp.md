@@ -6,7 +6,7 @@
 El siguiente mockup proporciona una vista anticipada de la interfaz del proyecto de registro y gestión de acciones. Este sistema facilita a los usuarios la tarea de registrar y supervisar sus inversiones, permitiéndoles mantener un historial organizado y actualizado. A continuación, se detallan las secciones clave del mockup junto con imágenes representativas.
 
 ### Inicio del Proyecto: Presentación y Autores
-En esta sección inicial, los usuarios son recibidos con una presentación del proyecto "Registro y Gestión de Acciones - Finanzas Personales". Se destacan el nombre del proyecto y los autores responsables de su desarrollo.
+En esta sección inicial, los usuarios son recibidos con una presentación del proyecto "Mis acciones". Se destacan el nombre del proyecto y los autores responsables de su desarrollo.
 
 <p align="center">
    <img src="https://i.postimg.cc/DzjRYymV/inicio.jpg" width=700/>
