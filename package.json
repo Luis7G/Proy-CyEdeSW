@@ -1,10 +1,10 @@
 {
-  "name": "Proyecto-ConstruccionYEvolucionDeSoftware",
+  "name": "proy-cyedesw",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/app.js",
   "scripts": {
-    "start": "nodemon server/app.js"
+    "start": "node mi-aplicacion.js"
   },
   "keywords": [],
   "author": "",
