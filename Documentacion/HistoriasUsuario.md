@@ -11,7 +11,7 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
 
 
 | Nro: 1 | Solicitud: Registro de nuevas acciones | Prioridad: Alta |
-|--------|----------------------------------------|------------------|
+|-------------------------------------------------------------------|
 | **Historia de Usuario:** Como usuario del sistema, deseo poder registrar nuevas acciones de manera eficiente, proporcionando información clave como el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra. Esto permitirá mantener un historial detallado y actualizado de mis inversiones. |
 | **Criterio de Aceptación:** Dado que el usuario tiene acceso al sistema, cuando complete todos los campos requeridos para registrar una nueva acción, la acción deberá ser almacenada de manera efectiva en la base de datos. |
 | **Requisitos Funcionales Asociados:** 
