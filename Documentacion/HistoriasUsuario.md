@@ -19,6 +19,7 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
   - El sistema deberá proporcionar un formulario de registro con campos para el nombre de la acción, fecha de compra, precio por acción, cantidad de acciones y costo total de compra.
   - Se requiere un mecanismo de cálculo automático del costo total de la compra.
   - El historial de acciones deberá ser accesible para que el usuario pueda verificar la información registrada. |
+|||
 
 | *N°:* 2 | *Título:* Visualización Detallada del Historial de Acciones |
 |---|---| 
@@ -28,6 +29,7 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
 | **Requisitos Funcionales Asociados:** 
   - El sistema debe proporcionar una interfaz clara y accesible para visualizar el historial de acciones.
   - La información en el historial debe presentarse de manera ordenada y fácil de entender. |
+|||
 
 | *N°:* 3 | *Título:* Modificación de una Acción Registrada |
 |---|---| 
@@ -37,6 +39,7 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
 | **Requisitos Funcionales Asociados:** 
   - El sistema debe proporcionar una interfaz intuitiva para editar los detalles de una acción registrada.
   - Los cambios realizados en la información de la acción deben reflejarse inmediatamente en el historial. |
+|||
 
 | *N°:* 4 | *Título:* Eliminación de una Acción Registrada |
 |---|---| 
@@ -46,21 +49,25 @@ En el presente informe, se exponen las variadas historias de usuario asociadas c
 | **Requisitos No Funcionales Asociados:** 
   - El sistema debe proporcionar una opción clara para eliminar acciones.
   - Se debe solicitar una confirmación antes de completar la eliminación. |
+|||
 
 | *N°:* 5 | *Título:* Seguridad de Datos |
 |---|---| 
 | *Prioridad* | Media |
 | **Historia de usuario:** Como usuario preocupado por la seguridad de mis datos financieros, deseo que el sistema implemente medidas de seguridad robustas para proteger la información sensible relacionada con mis inversiones. |
 | **Criterio de aceptación:** Los datos almacenados en el sistema deben estar cifrados para proteger la confidencialidad. El sistema debe implementar autenticación segura para garantizar que solo usuarios autorizados accedan a la información financiera. |
+|||
 
 | *N°:* 6 | *Título:* Rendimiento y Eficiencia |
 |---|---| 
 | *Prioridad* | Alta |
 | **Historia de usuario:** Como usuario que valora la eficiencia, deseo que el sistema sea rápido y eficiente al cargar y mostrar el historial de acciones, incluso cuando haya un gran volumen de datos. |
 | **Criterio de aceptación:** El tiempo de carga del historial de acciones no debe exceder un límite aceptable, incluso con una cantidad significativa de registros. Las operaciones como registro, modificación y eliminación de acciones deben completarse de manera rápida y sin demoras notables. |
+|||
 
 | *N°:* 7 | *Título:* Interfaz de Usuario Intuitiva |
 |---|---| 
 | *Prioridad* | Alta |
 | **Historia de usuario:** Como usuario, deseo que la interfaz de usuario sea intuitiva y fácil de usar, para poder navegar y realizar acciones en el sistema de Registro de Acciones sin dificultades. |
 | **Criterio de aceptación:** La interfaz de usuario debe tener un diseño limpio y organizado. Las funciones clave, como registro, modificación, eliminación y búsqueda, deben ser fácilmente accesibles y comprensibles para cualquier usuario. |
+|||
