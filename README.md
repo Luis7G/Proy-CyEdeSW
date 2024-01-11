@@ -41,10 +41,11 @@ Esta plataforma está diseñada para ser tu compañero confiable en el emocionan
 ### 3. Cálculos Automáticos
    - Olvídate de las complicaciones matemáticas. El sistema realiza automáticamente los cálculos del costo total de compra.
 
+```markdown
 ## Acceso a la Aplicación
 
 Descubre la plataforma de Registro de Acciones [aquí](#).
-
+```
 ## Instrucciones de Uso
 
 1. Accede a la aplicación utilizando el enlace proporcionado.
