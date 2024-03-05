@@ -1,60 +1,62 @@
-# Proy-CyEdeSW
+# StockKeeper App
 
 ## Tabla de Contenidos
 
 - [Introducción](#introducción)
 - [Campos del Registro](#campos-del-registro)
 - [Funcionalidades](#funcionalidades)
-- [Acceso a la Aplicación](#acceso-a-la-aplicación)
 - [Instrucciones de Uso](#instrucciones-de-uso)
 - [Autores](#autores)
 
 ## Introducción
 
-Esta plataforma está diseñada para ser tu compañero confiable en el emocionante mundo de las inversiones. Aquí, puedes registrar cada detalle de tus transacciones de acciones, desde el nombre de la acción hasta la fecha de compra, el precio por acción, la cantidad adquirida y el costo total de la compra.
+Esta aplicación ha sido mejorada para ofrecerte una gestión avanzada y análisis detallado de tus inversiones en acciones. Con nuevas funcionalidades de visualización y ordenamiento, junto con persistencia de datos, puedes ahora no solo registrar, sino también analizar el rendimiento de tus inversiones a lo largo del tiempo con gran facilidad y precisión.
 
 ## Campos del Registro
 
 ### 1. Nombre de la Acción
-   - **Descripción:** Ingresa el nombre de la acción para identificarla fácilmente.
+   - **Descripción:** Ingresa el nombre de la acción en mayúsculas para una identificación consistente.
 
 ### 2. Fecha de Compra
-   - **Descripción:** Registra la fecha exacta en que realizaste la compra de la acción.
+   - **Descripción:** Anota la fecha de adquisición de tus acciones para seguimiento temporal.
 
 ### 3. Precio de Compra por Acción
-   - **Descripción:** Indica el costo unitario de cada acción al momento de la compra.
+   - **Descripción:** Detalla el costo individual de cada acción en el momento de la compra.
 
 ### 4. Cantidad de Acciones
-   - **Descripción:** Especifica la cantidad de acciones que adquiriste en esta transacción.
+   - **Descripción:** La cantidad de acciones compradas que formarán parte de tu cartera.
 
 ### 5. Costo Total de Compra
-   - **Descripción:** Este campo se calcula automáticamente multiplicando el precio de compra por acción por la cantidad de acciones.
+   - **Descripción:** Calculado automáticamente, representa la inversión total en la transacción.
 
-## Funcionalidades
+### 6. Cambio (%)
+   - **Descripción:** Muestra el porcentaje de variación del precio de la acción desde la compra.
 
-### 1. Registro Detallado
-   - Registra cada acción de manera detallada, capturando todos los elementos clave para un seguimiento preciso.
+### 7. Ganancia/Perdida
+   - **Descripción:** Refleja la ganancia o pérdida total basada en el porcentaje de cambio.
 
-### 2. Visualización de Historial
-   - Explora tu historial completo de acciones registradas en cualquier momento.
+## Funcionalidades Nuevas
 
-### 3. Cálculos Automáticos
-   - Olvídate de las complicaciones matemáticas. El sistema realiza automáticamente los cálculos del costo total de compra.
+### 1. Ordenamiento Dinámico
+   - Ahora puedes ordenar tus registros de acciones según cualquier campo para una revisión más intuitiva.
 
-<!--
-## Acceso a la Aplicación
+### 2. Persistencia de Datos
+   - Tus datos permanecen guardados y seguros, permitiéndote retomar donde lo dejaste.
 
-Descubre la plataforma de Registro de Acciones [aquí](#).
--->
-## Instrucciones de Uso
+### 3. Análisis de Cambio
+   - Se ha documentado un análisis detallado de los cambios para mejorar la comprensión de las modificaciones y facilitar futuras referencias.
 
-1. Accede a la aplicación utilizando el enlace proporcionado.
-2. Completa los campos requeridos para cada acción que desees registrar.
-3. Guarda la información y observa cómo se generan automáticamente los cálculos necesarios.
-4. Explora tu historial para un análisis detallado de tus transacciones pasadas.
+## Instrucciones de Uso Actualizadas
+
+1. Ejecuta la aplicación.
+2. Rellena los campos necesarios para cada acción que desees registrar.
+3. Utiliza las funcionalidades de ordenamiento para organizar tus registros de forma ascendente o descendente según tus preferencias.
+4. Confía en la persistencia de datos para mantener tu información segura y accesible en todo momento.
+
+Con estas mejoras, esperamos que encuentres aún más valor en la aplicación y te apoye efectivamente en la gestión de tus inversiones.
 
 ## Autores
 
-| [<img src="https://i.postimg.cc/L8mr21JS/Ana.jpg)" width=300><br><sub>Ana Campoverde</sub>](https://github.com/AnaCampoverde) |  [<img src="https://i.postimg.cc/Xqn2fYsw/Joel.jpg" width=300><br><sub>Joel Guingla</sub>](https://github.com/Luis7G) | [<img src="https://i.postimg.cc/fL5wjJws/Sebas.jpg" width=300><br><sub>Sebastian Sánchez</sub>](https://github.com/greyox97) 
-| :---: | :---: | :---: |
+| [<img src="https://i.postimg.cc/L8mr21JS/Ana.jpg)" width=300><br><sub>Ana Campoverde</sub>](https://github.com/AnaCampoverde) | [<img src="https://i.postimg.cc/Xqn2fYsw/Joel.jpg" width=300><br><sub>Joel Guingla</sub>](https://github.com/Luis7G) | [<img src="https://i.postimg.cc/fL5wjJws/Sebas.jpg" width=300><br><sub>Sebastian Sánchez</sub>](https://github.com/greyox97) |
+| :---------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
 
