@@ -69,13 +69,17 @@ La aplicación StockKeeper se desarrolló utilizando las siguientes tecnologías
 
 Para la gestión de la base de datos y el servidor local, se utilizó:
 
-- XAMPP:
+- **XAMPP:**
   - Apache
   - MySQL
 
 Estas tecnologías fueron elegidas por su robustez, flexibilidad y la amplia comunidad de desarrolladores que ofrecen un soporte continuo.
 
 Con estas mejoras, esperamos que encuentres aún más valor en la aplicación y te apoye efectivamente en la gestión de tus inversiones.
+
+## API de Datos Financieros:
+
+**Alpha Vantage API:** Se seleccionó por su amplia gama de datos financieros en tiempo real y su facilidad de integración. La API de Alpha Vantage ofrece acceso a una variedad de indicadores de mercado, datos históricos de acciones, y mucho más, lo que la convierte en una herramienta ideal para aplicaciones de análisis financiero. Su uso en este proyecto permite ofrecer a los usuarios información actualizada y precisa sobre el rendimiento de sus inversiones, ayudando en la toma de decisiones informadas respecto a sus acciones.
 
 
 ## Autores

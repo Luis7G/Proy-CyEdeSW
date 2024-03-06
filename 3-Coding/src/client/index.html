@@ -136,41 +136,6 @@
 										location.href = "#mostrar";
 									});
 								</script>
-								<!-- <script>
-									document.getElementById("add-btn").addEventListener("click", function (event) {
-										// Previene el comportamiento por defecto si está dentro de un formulario
-										event.preventDefault();
-
-										// Aquí asumimos que ya tienes definidas las variables para nombre, fecha_compra, etc.
-										fetch('http://localhost:5000/insert', {
-											headers: {
-												'Content-type': 'application/json'
-											},
-											method: 'POST',
-											body: JSON.stringify({
-												nombre: nombre,
-												fecha_compra: fecha_compra,
-												precio_compra: precio_compra,
-												cantidad: cantidad
-											})
-										})
-											.then(response => response.json())
-											.then(data => {
-												// Inserta la fila en la tabla o maneja los datos como sea necesario
-												// insertRowIntoTable(data['data']);
-
-												// Ahora redirige al usuario
-												window.location.href = "#mostrar";
-												// Opcional: Si necesitas recargar la página para asegurar que los datos están actualizados
-												// puedes usar window.location.reload() después de cambiar el hash.
-												// Sin embargo, esto podría no ser necesario si gestionas los datos dinámicamente
-											})
-											.catch(error => {
-												console.error('Error:', error);
-												// Maneja el error adecuadamente
-											});
-									});
-								</script> -->
 							</div>
 						</div>
 					</div>

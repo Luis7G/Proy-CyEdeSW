@@ -18,9 +18,6 @@ connection.connect((err) => {
   }
 });
 
-
-
-
 class DbService {
   static getDbServiceInstance() {
     return instance ? instance : new DbService();
@@ -43,43 +40,16 @@ class DbService {
     }
   }
 
-  // async insertNewShare(data) {
-  //   try {
-  //     const costo_total = data.precio_compra * data.cantidad;
-  //     const query = "INSERT INTO acciones (id, nombre, fecha_compra, precio_compra, cantidad, costo_total) VALUES (?, ?, ?, ?, ?, ?);";
-  //     const insertId = await new Promise((resolve, reject) => {
-  //       connection.query(query, [data.id, data.nombre, data.fecha_compra, data.precio_compra, data.cantidad, costo_total], (err, result) => {
-  //         if (err) reject(new Error(err.message));
-  //         resolve(result.insertId);
-  //       });
-  //     });
-  //     return {
-  //       id: insertId,
-  //       nombre: data.nombre,
-  //       fecha_compra: data.fecha_compra,
-  //       precio_compra: data.precio_compra,
-  //       cantidad: data.cantidad,
-  //       costo_total: costo_total
-  //     };
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }
-
   async insertNewShare(data, precioActual) {
     try {
       console.log(`Precio actual de la acción: ${precioActual}`); // Imprime el precio actual
       const costo_total = data.precio_compra * data.cantidad;
-      // Calcula cambio y ganancia_perdida
       const cambio = (((precioActual - data.precio_compra) / data.precio_compra) * 100).toFixed(2);
 
-      // const ganancia_perdida = (precioActual * data.cantidad) - costo_total;
       const ganancia_perdida = (costo_total + (costo_total * cambio / 100)).toFixed(2);
-      // const ganancia_perdida = (precioActual * data.cantidad) - (data.precio_compra * data.cantidad);
 
       const nombreEnMayusculas = data.nombre.toUpperCase();
 
-      // Asume que has agregado las columnas cambio y ganancia_perdida a tu tabla acciones
       const query = "INSERT INTO acciones (id, nombre, fecha_compra, precio_compra, cantidad, costo_total, cambio, ganancia_perdida) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
       const insertId = await new Promise((resolve, reject) => {
         connection.query(query, [data.id, nombreEnMayusculas, data.fecha_compra, data.precio_compra, data.cantidad, costo_total, cambio, ganancia_perdida], (err, result) => {
@@ -121,33 +91,6 @@ class DbService {
       return false;
     }
   }
-
-  // async updateNameById(id, nombre, fecha_compra, precio_compra, cantidad, precioActual) {
-  //   try {
-  //     id = parseInt(id, 10);
-  //     if (isNaN(id) || id <= 0) {
-  //       return false;
-  //     }
-  //     const cambio = (((precioActual - precio_compra) / precio_compra) * 100).toFixed(2);
-  //     const costo_total = precio_compra * cantidad;
-  //     const ganancia_perdida = (costo_total * cambio / 100);
-
-  //     const response = await new Promise((resolve, reject) => {
-  //       const query = "UPDATE acciones SET nombre = ?, fecha_compra = ?, precio_compra = ?, cantidad = ?, costo_total = ?, cambio = ?, ganacia_perdida = ?  WHERE id = ?";
-
-  //       connection.query(query, [nombre, fecha_compra, precio_compra, cantidad, costo_total, cambio, ganancia_perdida, id], (err, result) => {
-  //         if (err) reject(new Error(err.message));
-  //         resolve(result.affectedRows);
-  //       });
-  //     });
-
-  //     return response > 0 ? true : false;
-  //   } catch (error) {
-  //     console.log(error);
-  //     return false;
-  //   }
-  // }
-
 
   async updateNameById(id, nombre, fecha_compra, precio_compra, cantidad, precioActual) {
     try {
