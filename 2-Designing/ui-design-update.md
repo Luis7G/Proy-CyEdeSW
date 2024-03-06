@@ -37,8 +37,6 @@ Cuando un usuario elige editar una acción, podrá ver los valores actuales de %
 
 ### Mockup: Edición de Acción
 
-![Edición de Acción](path/to/mockup-edicion-accion.png)
-
 *Descripción del Mockup:*
 - Al editar una acción, los campos de % Cambio y Gan/Per se muestran en modo solo lectura.
 - Los usuarios pueden actualizar el nombre, la fecha de compra, el precio y la cantidad. Los valores de % Cambio y Gan/Per se actualizarán al guardar los cambios.
