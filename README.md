@@ -55,6 +55,29 @@ Esta aplicación ha sido mejorada para ofrecerte una gestión avanzada y anális
 
 Con estas mejoras, esperamos que encuentres aún más valor en la aplicación y te apoye efectivamente en la gestión de tus inversiones.
 
+## Tecnologías Usadas
+
+La aplicación StockKeeper se desarrolló utilizando las siguientes tecnologías:
+
+- **Frontend:**
+  - HTML5
+  - CSS
+  - JavaScript
+
+- **Backend:**
+  - Spring Boot
+
+Para la gestión de la base de datos y el servidor local, se utilizó:
+
+- XAMPP:
+  - Apache
+  - MySQL
+
+Estas tecnologías fueron elegidas por su robustez, flexibilidad y la amplia comunidad de desarrolladores que ofrecen un soporte continuo.
+
+Con estas mejoras, esperamos que encuentres aún más valor en la aplicación y te apoye efectivamente en la gestión de tus inversiones.
+
+
 ## Autores
 
 | [<img src="https://i.postimg.cc/L8mr21JS/Ana.jpg)" width=300><br><sub>Ana Campoverde</sub>](https://github.com/AnaCampoverde) | [<img src="https://i.postimg.cc/Xqn2fYsw/Joel.jpg" width=300><br><sub>Joel Guingla</sub>](https://github.com/Luis7G) | [<img src="https://i.postimg.cc/fL5wjJws/Sebas.jpg" width=300><br><sub>Sebastian Sánchez</sub>](https://github.com/greyox97) |
