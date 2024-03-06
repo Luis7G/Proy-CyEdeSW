@@ -1,0 +1,26 @@
+{
+  "name": "proy-cyedesw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon src/server/app.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2",
+    "webpack": "^5.89.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

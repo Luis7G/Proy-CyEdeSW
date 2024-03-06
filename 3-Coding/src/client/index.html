@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Mis Acciones</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/stylesheet.css">
+
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper-->
+	<div id="wrapper">
+		<!-- Nav -->
+		<nav id="nav">
+			<a href="#" class="icon solid fa-home"><span>Inicio</span></a>
+			<a href="#mostrar" class="icon solid fa-folder"><span>Mostrar</span></a>
+			<a href="#ingresar" class="icon solid fa-envelope"><span>Ingresar</span></a>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Me -->
+			<article id="home" class="panel intro">
+				<header>
+					<h1 style="text-align: center">Mis Acciones</h1>
+					<p>Proyecto Construcción y Evolución de Software</p>
+					<p style="text-align: center; font-weight: bold">Por:</p>
+					<p style="text-align: center">Ana Campoverde</p>
+					<p style="text-align: center">Sebastián Sánchez</p>
+					<p style="text-align: center">Joel Guingla</p>
+				</header>
+				<a href="#mostrar" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>Continuar</span></span>
+					<img src="images/me.jpg" />
+				</a>
+			</article>
+
+			<!-- Mostrar -->
+			<article id="mostrar" class="panel">
+				<header>
+					<h2>Mis acciones</h2>
+					<p>*Puede presionar encima de algunos encabezados para ordenar de forma ASC o DESC*</p>
+				</header>
+				<section>
+					<table class="table table-responsive" style="text-align: center;" id="table">
+						<thead>
+							<tr>
+								<!-- <th>ID</th> -->
+								<th class="sortable" data-sort="nombre">Nombre de la acción</th>
+								<th class="sortable" data-sort="fecha_compra" >Fecha de compra</th>
+								<th class="sortable" data-sort="precio_compra">Precio de compra por acción</th>
+								<th class="sortable" data-sort="cantidad">Cantidad de acciones</th>
+								<th>Costo total de compra</th>
+								<th>Cambio</th>
+								<th>Gan/Per</th>
+								<th colspan="2">Botones de Acción</th> <!-- Nuevo encabezado para botones -->
+
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</section>
+				<div hidden id="update-row">
+					<header>
+						<h2>Ingrese los nuevos valores</h2>
+					</header>
+					<form>
+						<div>
+							<div class="row">
+								<div class="col-6 col-12-medium">
+									<input type="text" id="update-name-input" name="nameU"
+										placeholder="Nombre de la acción">
+								</div>
+								<div class="col-6 col-12-medium"
+									style="display: flex; height: 3em; margin-top: 0.5em; padding-left: 2em;">
+									<p for="date" style="padding-right: 1em;">Fecha de compra</p>
+									<input type="date" id="update-date-input" name="dateU"
+										style="display: flex; align-items: end;">
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="number" id="update-price-input" name="priceU"
+										placeholder="Precio de compra por acción">
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="number" id="update-quantity-input" name="quantityU"
+										placeholder="Cantidad de acciones">
+								</div>
+								<div class="col-6 col-12-medium">
+									<input type="submit" id="update-row-btn" value="Actualizar" />
+									<script>
+										document.getElementById("update-row-btn").addEventListener("click", function () {
+											location.href = "#mostrar";
+										});
+
+									</script>
+								</div>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</article>
+
+			<!-- Ingresar -->
+			<article id="ingresar" class="panel">
+				<header>
+					<h2>Ingrese una nueva acción</h2>
+				</header>
+				<form>
+					<div>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<input type="text" id="name-input" name="name" placeholder="Nombre de la acción">
+							</div>
+							<div class="col-6 col-12-medium"
+								style="display: flex; height: 3em; margin-top: 0.5em; padding-left: 2em;">
+								<p for="date" style="padding-right: 1em;">Fecha de compra</p>
+								<input type="date" id="date-input" name="date" style="display: flex; align-items: end;">
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="number" id="price-input" name="price"
+									placeholder="Precio de compra por acción" >
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="number" id="quantity-input" name="quantity"
+									placeholder="Cantidad de acciones">
+							</div>
+							<div class="col-6 col-12-medium">
+								<input type="submit" id="add-btn" value="Agregar Acción"/>
+								<script>
+									document.getElementById("add-btn").addEventListener("click", function () {
+										location.href = "#mostrar";
+									});
+								</script>
+								<!-- <script>
+									document.getElementById("add-btn").addEventListener("click", function (event) {
+										// Previene el comportamiento por defecto si está dentro de un formulario
+										event.preventDefault();
+
+										// Aquí asumimos que ya tienes definidas las variables para nombre, fecha_compra, etc.
+										fetch('http://localhost:5000/insert', {
+											headers: {
+												'Content-type': 'application/json'
+											},
+											method: 'POST',
+											body: JSON.stringify({
+												nombre: nombre,
+												fecha_compra: fecha_compra,
+												precio_compra: precio_compra,
+												cantidad: cantidad
+											})
+										})
+											.then(response => response.json())
+											.then(data => {
+												// Inserta la fila en la tabla o maneja los datos como sea necesario
+												// insertRowIntoTable(data['data']);
+
+												// Ahora redirige al usuario
+												window.location.href = "#mostrar";
+												// Opcional: Si necesitas recargar la página para asegurar que los datos están actualizados
+												// puedes usar window.location.reload() después de cambiar el hash.
+												// Sin embargo, esto podría no ser necesario si gestionas los datos dinámicamente
+											})
+											.catch(error => {
+												console.error('Error:', error);
+												// Maneja el error adecuadamente
+											});
+									});
+								</script> -->
+							</div>
+						</div>
+					</div>
+				</form>
+			</article>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
+
+</html>
