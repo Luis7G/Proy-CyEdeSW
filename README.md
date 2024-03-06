@@ -65,7 +65,8 @@ La aplicación StockKeeper se desarrolló utilizando las siguientes tecnologías
   - JavaScript
 
 - **Backend:**
-  - Spring Boot
+
+  - Express.js: Se utilizó Express, un framework minimalista para Node.js, para crear la API REST que maneja la lógica del negocio y las interacciones con la base de datos. Express facilita la creación de rutas de API de manera eficiente y es ampliamente utilizado para aplicaciones web y móviles debido a su rendimiento y flexibilidad.
 
 Para la gestión de la base de datos y el servidor local, se utilizó:
 

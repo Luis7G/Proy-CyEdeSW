@@ -20,4 +20,4 @@
 | 2         | Media     | Designing | Interfaz de usuario         | Actualizar el diseño de la interfaz                                  | 1           |
 | 2         | Media     | Coding    | Prototipo                   | Vista previa del aplicativo                                          | 3           |
 | 2         | Alta      | Coding    | Versión 2                   | Versión funcional                                                    | 5           |
-| 2         | Alta      | Testing   | Casos de prueba             | Pruebas unitarias y funcionales                                      | 2           |
+| 2         | Alta      | Testing   | Casos de prueba             | Pruebas funcionales                                                  | 2           |

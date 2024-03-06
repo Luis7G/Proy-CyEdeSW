@@ -60,7 +60,7 @@ Verificar que el sistema permite ordenar las acciones registradas por cualquiera
 ## Pasos de la prueba
 
 1. Acceder al listado de acciones registradas en el sistema.
-2. Seleccionar un criterio de ordenamiento (por ejemplo, fecha de compra).
+2. Seleccionar un encabezado para ordenar de forma ASC o DESC.
 3. Verificar que el listado se actualiza mostrando las acciones ordenadas según el criterio seleccionado.
 
 ## Resultado esperado
